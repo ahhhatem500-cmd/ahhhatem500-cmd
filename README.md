@@ -17,6 +17,9 @@
 <a href="https://www.linkedin.com/in/ahmed-hatem-5674a7391">
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
 </a>
+<a href="https://t.me/Eng_Ahmed_Hatem1030">
+  <img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" />
+</a>
 <img src="https://komarev.com/ghpvc/?username=ahhhatem500-cmd&label=Profile%20views&color=0ea5e9&style=for-the-badge" alt="Profile views" />
 
 </div>
@@ -106,27 +109,6 @@ Theory  →  Simulation  →  Implementation  →  Visual explanation
 ---
 
 <details open>
-<summary><h2>📊 Stats &amp; Activity</h2></summary>
-
-<p align="center">
-  <a href="https://github.com/ahhhatem500-cmd?tab=followers">
-    <img src="https://img.shields.io/github/followers/ahhhatem500-cmd?style=for-the-badge&logo=github&labelColor=0f172a&color=0ea5e9" alt="Followers" />
-  </a>
-  <a href="https://github.com/ahhhatem500-cmd?tab=repositories&sort=stargazers">
-    <img src="https://img.shields.io/github/stars/ahhhatem500-cmd?style=for-the-badge&logo=github&labelColor=0f172a&color=6366f1&label=Stars" alt="Stars" />
-  </a>
-  <img src="https://img.shields.io/github/repos/ahhhatem500-cmd?style=for-the-badge&label=Repos&labelColor=0f172a&color=22d3ee" alt="Repos" />
-</p>
-
-<p align="center">
-  <img src="https://ghchart.rshah.org/38BDF8/ahhhatem500-cmd" width="95%" alt="Contribution chart" />
-</p>
-
-</details>
-
----
-
-<details open>
 <summary><h2>🚀 Projects</h2></summary>
 
 <table>
@@ -163,6 +145,9 @@ Theory  →  Simulation  →  Implementation  →  Visual explanation
   </a>
   <a href="https://www.linkedin.com/in/ahmed-hatem-5674a7391">
     <img src="https://img.shields.io/badge/Connect%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://t.me/Eng_Ahmed_Hatem1030">
+    <img src="https://img.shields.io/badge/Message%20on%20Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" />
   </a>
 </p>
 
