@@ -41,6 +41,7 @@ Theory  →  Simulation  →  Implementation  →  Visual explanation
 - 📶 **Core interest:** digital communications — modulation, OFDM, channel coding, and RF front-ends
 - 🧪 **Simulation:** MATLAB / Simulink models of transceivers, filters, and link budgets
 - 🔬 **Digital & circuit design:** Logisim (logic), ModelSim (HDL), Proteus (circuits / microcontrollers)
+- 🧫 **Lab bench:** TIMS (Emona) and ATOL platforms for communication-system experiments
 - 📡 **Radio:** GNU Radio + Software Defined Radio experiments (spectrum, demodulation, framing)
 - 🌐 **Networks:** OSI & TCP/IP layers, routing basics, Cisco Packet Tracer, packet analysis with Wireshark
 - 🤖 **Explaining:** I animate engineering concepts with **Manim** — creator of **Visualized Math**, where hard ideas become obvious visuals
@@ -87,12 +88,14 @@ Theory  →  Simulation  →  Implementation  →  Visual explanation
   <img src="https://img.shields.io/badge/Raspberry%20Pi-A22846?style=for-the-badge&logo=raspberrypi&logoColor=white" alt="Raspberry Pi" />
 </p>
 
-<h3>🔬 Simulation &amp; EDA</h3>
+<h3>🔬 Simulation, EDA &amp; Lab</h3>
 <p>
   <img src="https://img.shields.io/badge/Cisco%20Packet%20Tracer-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white" alt="Cisco Packet Tracer" />
   <img src="https://img.shields.io/badge/Logisim-44546A?style=for-the-badge&logoColor=white" alt="Logisim" />
   <img src="https://img.shields.io/badge/ModelSim-0B5D8A?style=for-the-badge&logo=siemens&logoColor=white" alt="ModelSim" />
   <img src="https://img.shields.io/badge/Proteus-2E6BA8?style=for-the-badge&logoColor=white" alt="Proteus" />
+  <img src="https://img.shields.io/badge/TIMS%20(Emona)-1B3A5C?style=for-the-badge&logoColor=white" alt="TIMS - Emona" />
+  <img src="https://img.shields.io/badge/ATOL-2E6BA8?style=for-the-badge&logoColor=white" alt="ATOL" />
 </p>
 
 <h3>🧰 Tools</h3>
