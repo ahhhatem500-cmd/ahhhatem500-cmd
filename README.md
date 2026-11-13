@@ -41,6 +41,7 @@ Theory  →  Simulation  →  Implementation  →  Visual explanation
 - 📶 **Core interest:** digital communications — modulation, OFDM, channel coding, and RF front-ends
 - 📡 **Radio & SDR:** GNU Radio and Software Defined Radio experiments (spectrum, demodulation, framing)
 - 📐 **Radio planning:** ATOLL (Forsk) — coverage, capacity, and optimisation for 2G / 3G / 4G / 5G networks
+- 💡 **Hands-on build:** a working **Li-Fi** link — keypad → laser → LDR → LCD, data carried on light
 - 🧪 **Simulation:** MATLAB / Simulink models of transceivers, filters, and link budgets
 - 🧫 **Lab bench:** TIMS (Emona) platform for building and measuring communication-system experiments
 - 🔬 **Digital & circuit design:** Logisim (logic), ModelSim (HDL), Proteus (circuits / microcontrollers)
@@ -118,15 +119,17 @@ Theory  →  Simulation  →  Implementation  →  Visual explanation
 <table>
   <tr>
     <td width="50%" valign="top">
+      <h3>💡 <a href="https://github.com/ahhhatem500-cmd/lifi-communication-system">Li-Fi Communication System</a></h3>
+      <p>Text sent over a <b>laser beam</b>: a 4×4 keypad feeds an Arduino UNO that modulates a laser diode, and a second Arduino reads the beam with an LDR and prints the decoded message on an LCD — no radio, no wires.</p>
+      <img src="https://img.shields.io/badge/Arduino-00979D?style=flat-square&logo=arduino&logoColor=white" alt="Arduino" />
+      <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++" />
+      <img src="https://img.shields.io/badge/Free%20Space%20Optics-F87171?style=flat-square&logoColor=white" alt="Free space optics" />
+    </td>
+    <td width="50%" valign="top">
       <h3>🎬 <a href="https://github.com/ahhhatem500-cmd/manim">manim</a></h3>
       <p>Scene code and experiments behind <b>Visualized Math</b> — animated explanations of engineering &amp; mathematical ideas.</p>
       <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
       <img src="https://img.shields.io/badge/Manim-1C1C1C?style=flat-square&logoColor=white" alt="Manim" />
-    </td>
-    <td width="50%" valign="top">
-      <h3>🧪 Coming soon</h3>
-      <p>DSP experiments, communication-system simulations, and small SDR projects are in progress.</p>
-      <img src="https://img.shields.io/badge/status-building-0ea5e9?style=flat-square" alt="Building" />
     </td>
   </tr>
 </table>
