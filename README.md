@@ -43,7 +43,7 @@ Theory  →  Simulation  →  Implementation  →  Visual explanation
 - 📐 **Radio planning:** ATOLL (Forsk) — coverage, capacity, and optimisation for 2G / 3G / 4G / 5G networks
 - 💡 **Hands-on build:** a working **Li-Fi** link — keypad → laser → LDR → LCD, data carried on light
 - 🧪 **Simulation:** MATLAB / Simulink models of transceivers, filters, and link budgets
-- 🧫 **Lab bench:** TIMS (Emona) platform for building and measuring communication-system experiments
+- 🛰️ **Drive test & optimisation:** TEMS Investigation — RF measurements, drive tests, and radio network optimisation
 - 🔬 **Digital & circuit design:** Logisim (logic), ModelSim (HDL), Proteus (circuits / microcontrollers)
 - 🌐 **Networks:** OSI & TCP/IP layers, routing basics, Cisco Packet Tracer, packet analysis with Wireshark
 - 🤖 **Explaining:** I animate engineering concepts with **Manim** — creator of **Visualized Math**, where hard ideas become obvious visuals
@@ -96,7 +96,7 @@ Theory  →  Simulation  →  Implementation  →  Visual explanation
   <img src="https://img.shields.io/badge/Logisim-44546A?style=for-the-badge&logoColor=white" alt="Logisim" />
   <img src="https://img.shields.io/badge/ModelSim-0B5D8A?style=for-the-badge&logo=siemens&logoColor=white" alt="ModelSim" />
   <img src="https://img.shields.io/badge/Proteus-2E6BA8?style=for-the-badge&logoColor=white" alt="Proteus" />
-  <img src="https://img.shields.io/badge/TIMS%20(Emona)-1B3A5C?style=for-the-badge&logoColor=white" alt="TIMS - Emona" />
+  <img src="https://img.shields.io/badge/TEMS%20Investigation-1B3A5C?style=for-the-badge&logoColor=white" alt="TEMS Investigation" />
   <img src="https://img.shields.io/badge/ATOLL%20(Forsk)-1F6F8B?style=for-the-badge&logoColor=white" alt="ATOLL - Forsk" />
 </p>
 
