@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="Ahmed Hatem - Communications Engineering">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050A12"/>
+      <stop offset="0.55" stop-color="#0B1A2A"/>
+      <stop offset="1" stop-color="#0F2A42"/>
+    </linearGradient>
+    <linearGradient id="wave" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset="0.2" stop-color="#22D3EE"/>
+      <stop offset="0.5" stop-color="#38BDF8"/>
+      <stop offset="0.8" stop-color="#818CF8"/>
+      <stop offset="1" stop-color="#818CF8" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="nameFill" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#EAF6FF"/>
+      <stop offset="0.55" stop-color="#A5DEFF"/>
+      <stop offset="1" stop-color="#8FA6FF"/>
+    </linearGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#38BDF8" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#1B3A5C" stroke-width="1"/>
+    </pattern>
+    <pattern id="dots" width="48" height="48" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#2E5C82" opacity="0.5"/>
+    </pattern>
+    <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="320" fill="url(#bg)"/>
+  <rect width="1200" height="320" fill="url(#grid)" opacity="0.28"/>
+  <rect width="1200" height="320" fill="url(#dots)" opacity="0.55"/>
+
+  <circle cx="1050" cy="70" r="120" fill="#38BDF8" opacity="0.05"/>
+  <circle cx="150" cy="280" r="150" fill="#818CF8" opacity="0.05"/>
+
+  <text x="48" y="44" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#3E6E96" opacity="0.75" letter-spacing="2">01001110 01010101 01000101 01010011</text>
+  <text x="1152" y="44" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#3E6E96" opacity="0.75" letter-spacing="2">RX • TX</text>
+
+  <circle cx="48" cy="118" r="4" fill="#22D3EE">
+    <animate attributeName="opacity" values="0.25;1;0.25" dur="2.4s" repeatCount="indefinite"/>
+  </circle>
+  <line x1="62" y1="118" x2="118" y2="118" stroke="#22D3EE" stroke-width="1.5" opacity="0.5"/>
+
+  <text x="600" y="150" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="60" font-weight="700" letter-spacing="7" fill="url(#nameFill)">AHMED HATEM</text>
+
+  <text x="600" y="190" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" letter-spacing="7.5" fill="#6FA8D0">COMMUNICATIONS ENGINEERING</text>
+
+  <line x1="380" y1="212" x2="820" y2="212" stroke="url(#rule)" stroke-width="1.5"/>
+
+  <text x="600" y="236" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" letter-spacing="4" fill="#4A7CA6">SIGNALS &#183; WIRELESS &#183; NETWORKS &#183; EMBEDDED</text>
+
+  <g opacity="0.35">
+    <path d="M0 268 C50 208 100 208 150 268 C200 328 250 328 300 268 C350 208 400 208 450 268 C500 328 550 328 600 268 C650 208 700 208 750 268 C800 328 850 328 900 268 C950 208 1000 208 1050 268 C1100 328 1150 328 1200 268"
+          fill="none" stroke="url(#wave)" stroke-width="1.6"/>
+  </g>
+
+  <g filter="url(#softGlow)">
+    <path d="M0 268 C50 208 100 208 150 268 C200 328 250 328 300 268 C350 208 400 208 450 268 C500 328 550 328 600 268 C650 208 700 208 750 268 C800 328 850 328 900 268 C950 208 1000 208 1050 268 C1100 328 1150 328 1200 268"
+          fill="none" stroke="url(#wave)" stroke-width="3" stroke-linecap="round"
+          stroke-dasharray="150 1500">
+      <animate attributeName="stroke-dashoffset" from="1650" to="0" dur="7s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <g fill="#38BDF8">
+    <circle cx="150" cy="268" r="3.5">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="3s" begin="0s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="450" cy="268" r="3.5">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="3s" begin="0.7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="750" cy="268" r="3.5">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="3s" begin="1.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1050" cy="268" r="3.5">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="3s" begin="2.1s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <line x1="0" y1="318" x2="1200" y2="318" stroke="#22D3EE" stroke-width="2" opacity="0.35"/>
+</svg>
