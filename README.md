@@ -39,11 +39,11 @@ Theory  →  Simulation  →  Implementation  →  Visual explanation
 ```
 
 - 📶 **Core interest:** digital communications — modulation, OFDM, channel coding, and RF front-ends
+- 📡 **Radio & SDR:** GNU Radio and Software Defined Radio experiments (spectrum, demodulation, framing)
 - 📐 **Radio planning:** ATOLL (Forsk) — coverage, capacity, and optimisation for 2G / 3G / 4G / 5G networks
 - 🧪 **Simulation:** MATLAB / Simulink models of transceivers, filters, and link budgets
-- 🔬 **Digital & circuit design:** Logisim (logic), ModelSim (HDL), Proteus (circuits / microcontrollers)
 - 🧫 **Lab bench:** TIMS (Emona) platform for building and measuring communication-system experiments
-- 📡 **Radio:** GNU Radio + Software Defined Radio experiments (spectrum, demodulation, framing)
+- 🔬 **Digital & circuit design:** Logisim (logic), ModelSim (HDL), Proteus (circuits / microcontrollers)
 - 🌐 **Networks:** OSI & TCP/IP layers, routing basics, Cisco Packet Tracer, packet analysis with Wireshark
 - 🤖 **Explaining:** I animate engineering concepts with **Manim** — creator of **Visualized Math**, where hard ideas become obvious visuals
 - 🌱 **Currently exploring:** 5G NR fundamentals, MIMO, Python for DSP, and embedded C
