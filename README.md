@@ -151,6 +151,10 @@ Theory  →  Simulation  →  Implementation  →  Visual explanation
   </a>
 </p>
 
+<p align="center">
+  📧 <a href="mailto:ahhhatem500@gmail.com"><b>ahhhatem500@gmail.com</b></a>
+</p>
+
 </details>
 
 <br/>
