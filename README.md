@@ -14,6 +14,9 @@
 <a href="https://github.com/ahhhatem500-cmd">
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
 </a>
+<a href="https://www.linkedin.com/in/ahmed-hatem-5674a7391">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+</a>
 <img src="https://komarev.com/ghpvc/?username=ahhhatem500-cmd&label=Profile%20views&color=0ea5e9&style=for-the-badge" alt="Profile views" />
 
 </div>
@@ -23,7 +26,7 @@
 <details open>
 <summary><h2>🛰️ About Me</h2></summary>
 
-I'm an **Communications Engineering** student fascinated by one question:
+I'm a **Communications Engineering** student fascinated by one question:
 *how does information actually get from a transmitter to a receiver — and how do we make it faster, cleaner, and more reliable?*
 
 My workflow is simple:
@@ -34,8 +37,9 @@ Theory  →  Simulation  →  Implementation  →  Visual explanation
 
 - 📶 **Core interest:** digital communications — modulation, OFDM, channel coding, and RF front-ends
 - 🧪 **Simulation:** MATLAB / Simulink models of transceivers, filters, and link budgets
+- 🔬 **Digital & circuit design:** Logisim (logic), ModelSim (HDL), Proteus (circuits / microcontrollers)
 - 📡 **Radio:** GNU Radio + Software Defined Radio experiments (spectrum, demodulation, framing)
-- 🌐 **Networks:** OSI & TCP/IP layers, routing basics, packet analysis with Wireshark
+- 🌐 **Networks:** OSI & TCP/IP layers, routing basics, Cisco Packet Tracer, packet analysis with Wireshark
 - 🤖 **Explaining:** I animate engineering concepts with **Manim** — creator of **Visualized Math**, where hard ideas become obvious visuals
 - 🌱 **Currently exploring:** 5G NR fundamentals, MIMO, Python for DSP, and embedded C
 
@@ -62,7 +66,7 @@ Theory  →  Simulation  →  Implementation  →  Visual explanation
   <img src="https://img.shields.io/badge/SDR-0F2E45?style=for-the-badge&logo=radiogarden&logoColor=38BDF8" alt="SDR" />
   <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
   <img src="https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white" alt="SciPy" />
-  <img src="https://img.shields.io/badge/Manim-1C1C1C?style=for-the-badge&logo=man&logoColor=white" alt="Manim" />
+  <img src="https://img.shields.io/badge/Manim-1C1C1C?style=for-the-badge&logoColor=white" alt="Manim" />
 </p>
 
 <h3>🌐 Networking</h3>
@@ -78,6 +82,14 @@ Theory  →  Simulation  →  Implementation  →  Visual explanation
   <img src="https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white" alt="ESP32" />
   <img src="https://img.shields.io/badge/STM32-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white" alt="STM32" />
   <img src="https://img.shields.io/badge/Raspberry%20Pi-A22846?style=for-the-badge&logo=raspberrypi&logoColor=white" alt="Raspberry Pi" />
+</p>
+
+<h3>🔬 Simulation &amp; EDA</h3>
+<p>
+  <img src="https://img.shields.io/badge/Cisco%20Packet%20Tracer-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white" alt="Cisco Packet Tracer" />
+  <img src="https://img.shields.io/badge/Logisim-44546A?style=for-the-badge&logoColor=white" alt="Logisim" />
+  <img src="https://img.shields.io/badge/ModelSim-0B5D8A?style=for-the-badge&logo=siemens&logoColor=white" alt="ModelSim" />
+  <img src="https://img.shields.io/badge/Proteus-2E6BA8?style=for-the-badge&logoColor=white" alt="Proteus" />
 </p>
 
 <h3>🧰 Tools</h3>
@@ -107,10 +119,6 @@ Theory  →  Simulation  →  Implementation  →  Visual explanation
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=ahhhatem500-cmd&theme=tokyonight&hide_border=true&background=0B1A2A&ring=38BDF8&fire=F472B6&currStreakLabel=38BDF8&sideLabels=A5DEFF&dates=6FA8D0&currStreakNum=FFFFFF&sideNums=A5DEFF" alt="GitHub streak" />
-</p>
-
-<p align="center">
   <img src="https://ghchart.rshah.org/38BDF8/ahhhatem500-cmd" width="95%" alt="Contribution chart" />
 </p>
 
@@ -125,9 +133,9 @@ Theory  →  Simulation  →  Implementation  →  Visual explanation
   <tr>
     <td width="50%" valign="top">
       <h3>🎬 <a href="https://github.com/ahhhatem500-cmd/manim">manim</a></h3>
-      <p>Animated visual explanations of engineering &amp; mathematical concepts — making abstract signals and systems intuitive.</p>
+      <p>Scene code and experiments behind <b>Visualized Math</b> — animated explanations of engineering &amp; mathematical ideas.</p>
       <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-      <img src="https://img.shields.io/badge/Manim-1C1C1C?style=flat-square&logo=man&logoColor=white" alt="Manim" />
+      <img src="https://img.shields.io/badge/Manim-1C1C1C?style=flat-square&logoColor=white" alt="Manim" />
     </td>
     <td width="50%" valign="top">
       <h3>🧪 Coming soon</h3>
@@ -152,6 +160,9 @@ Theory  →  Simulation  →  Implementation  →  Visual explanation
 <p align="center">
   <a href="mailto:ahhhatem500@gmail.com">
     <img src="https://img.shields.io/badge/Say%20Hello-0ea5e9?style=for-the-badge&logo=minutemailer&logoColor=white" alt="Say hello" />
+  </a>
+  <a href="https://www.linkedin.com/in/ahmed-hatem-5674a7391">
+    <img src="https://img.shields.io/badge/Connect%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
 </p>
 
