@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/banner.png" width="100%" alt="Visualized Math — Ahmed Hatem" />
+<img src="./assets/banner.svg" width="100%" alt="Ahmed Hatem — Communications Engineering" />
 
 <a href="https://github.com/ahhhatem500-cmd">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&color=38BDF8&center=true&vCenter=true&width=620&height=42&lines=Communications+Engineering+Student;Signals+%E2%80%A2+Wireless+%E2%80%A2+Networks+%E2%80%A2+Embedded;Simulate+it+%E2%86%92+Build+it+%E2%86%92+Explain+it;Always+learning+something+new" alt="Typing SVG" />

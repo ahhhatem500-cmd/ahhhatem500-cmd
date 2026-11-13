@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 400" width="1400" height="400" role="img" aria-label="Ahmed Hatem - Communications Engineering">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#04080F"/>
+      <stop offset="0.5" stop-color="#081726"/>
+      <stop offset="1" stop-color="#0E2740"/>
+    </linearGradient>
+    <radialGradient id="glowL" cx="0.14" cy="0.12" r="0.55">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0.20"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowR" cx="0.86" cy="0.12" r="0.55">
+      <stop offset="0" stop-color="#818CF8" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#818CF8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="steel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#A5DEFF"/>
+      <stop offset="1" stop-color="#2C5364"/>
+    </linearGradient>
+    <linearGradient id="nameFill" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#EAF6FF"/>
+      <stop offset="0.55" stop-color="#A5DEFF"/>
+      <stop offset="1" stop-color="#8FA6FF"/>
+    </linearGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#38BDF8" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="50" height="50" patternUnits="userSpaceOnUse">
+      <path d="M50 0H0V50" fill="none" stroke="#17344E" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Lattice telecom tower: apex at (0,0), base at y=340 -->
+    <g id="tower">
+      <path d="M-46 340 L-9 0 M46 340 L9 0" stroke="url(#steel)" stroke-width="2.6" fill="none"/>
+      <path d="M-46 340 L40.6 290 L-35.2 240 L29.7 190 L-24.3 140 L18.8 90 L-13.9 45 L9 0"
+            stroke="#5B9BC4" stroke-width="1.3" fill="none" opacity="0.85"/>
+      <path d="M-46 340 L-35.2 240 M46 340 L35.2 240" stroke="#3E6E96" stroke-width="1" opacity="0.5"/>
+      <g stroke="#4A7CA6" stroke-width="1" opacity="0.55">
+        <path d="M-40.6 290 H40.6"/>
+        <path d="M-29.7 190 H29.7"/>
+        <path d="M-18.8 90 H18.8"/>
+        <path d="M-13.9 45 H13.9"/>
+      </g>
+      <path d="M0 0 V-34" stroke="url(#steel)" stroke-width="2.2"/>
+      <g fill="#7FB2D9" opacity="0.9">
+        <rect x="-22" y="-30" width="9" height="18" rx="1.5" transform="rotate(-12 -17.5 -21)"/>
+        <rect x="-4.5" y="-32" width="9" height="18" rx="1.5"/>
+        <rect x="13" y="-30" width="9" height="18" rx="1.5" transform="rotate(12 17.5 -21)"/>
+      </g>
+      <circle cx="0" cy="-38" r="3" fill="#F87171">
+        <animate attributeName="opacity" values="0.15;1;0.15" dur="2s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+  </defs>
+
+  <rect width="1400" height="400" fill="url(#bg)"/>
+  <rect width="1400" height="400" fill="url(#grid)" opacity="0.35"/>
+  <rect width="1400" height="400" fill="url(#glowL)"/>
+  <rect width="1400" height="400" fill="url(#glowR)"/>
+
+  <!-- faint skyline + ground line -->
+  <g opacity="0.30" fill="#0B2136">
+    <path d="M0 400 V374 H58 V358 H94 V374 H138 V346 H174 V374 H212 V362 H260 V374 H1140 V362 H1188 V374 H1226 V346 H1262 V374 H1306 V358 H1342 V374 H1400 V400 Z"/>
+  </g>
+  <line x1="0" y1="374" x2="1400" y2="374" stroke="#1E3A5F" stroke-width="1"/>
+
+  <!-- signal rings -->
+  <g fill="none" stroke-linecap="round" filter="url(#glow)">
+    <circle cx="196" cy="40" r="82" stroke="#38BDF8" stroke-width="1.6" opacity="0.45" stroke-dasharray="5 9">
+      <animate attributeName="opacity" values="0.1;0.5;0.1" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="196" cy="40" r="132" stroke="#38BDF8" stroke-width="1.4" opacity="0.3" stroke-dasharray="5 11">
+      <animate attributeName="opacity" values="0.06;0.34;0.06" dur="4s" begin="0.7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="196" cy="40" r="186" stroke="#22D3EE" stroke-width="1.2" opacity="0.2" stroke-dasharray="4 13">
+      <animate attributeName="opacity" values="0.04;0.22;0.04" dur="4s" begin="1.4s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="1206" cy="40" r="82" stroke="#818CF8" stroke-width="1.6" opacity="0.42" stroke-dasharray="5 9">
+      <animate attributeName="opacity" values="0.1;0.48;0.1" dur="4s" begin="0.35s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1206" cy="40" r="132" stroke="#818CF8" stroke-width="1.4" opacity="0.28" stroke-dasharray="5 11">
+      <animate attributeName="opacity" values="0.05;0.3;0.05" dur="4s" begin="1.05s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1206" cy="40" r="186" stroke="#8FA6FF" stroke-width="1.2" opacity="0.18" stroke-dasharray="4 13">
+      <animate attributeName="opacity" values="0.03;0.2;0.03" dur="4s" begin="1.75s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- towers -->
+  <g transform="translate(196 60)">
+    <use href="#tower"/>
+  </g>
+  <g transform="translate(1206 60)">
+    <use href="#tower"/>
+  </g>
+
+  <!-- link between towers -->
+  <path d="M196 150 C480 118 920 118 1206 150" fill="none" stroke="#22D3EE" stroke-width="1" opacity="0.18" stroke-dasharray="6 10"/>
+  <g fill="#38BDF8">
+    <circle cx="452" cy="126" r="2.4"><animate attributeName="opacity" values="0.2;1;0.2" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="700" cy="120" r="2.4"><animate attributeName="opacity" values="0.2;1;0.2" dur="3s" begin="1s" repeatCount="indefinite"/></circle>
+    <circle cx="948" cy="126" r="2.4"><animate attributeName="opacity" values="0.2;1;0.2" dur="3s" begin="2s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- text -->
+  <text x="700" y="150" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="52" font-weight="700" letter-spacing="6.5" fill="url(#nameFill)">AHMED HATEM</text>
+  <line x1="505" y1="176" x2="895" y2="176" stroke="url(#rule)" stroke-width="1.5"/>
+  <text x="700" y="204" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" letter-spacing="6.5" fill="#6FA8D0">COMMUNICATIONS ENGINEERING</text>
+  <text x="700" y="238" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="3.4" fill="#4A7CA6">RF &#183; SIGNALS &#183; 5G &#183; NETWORKS &#183; DSP</text>
+
+  <line x1="0" y1="398" x2="1400" y2="398" stroke="#22D3EE" stroke-width="2" opacity="0.4"/>
+</svg>
