@@ -42,6 +42,7 @@ Theory  →  Simulation  →  Implementation  →  Visual explanation
 - 📡 **Radio & SDR:** GNU Radio and Software Defined Radio experiments (spectrum, demodulation, framing)
 - 📐 **Radio planning:** ATOLL (Forsk) — coverage, capacity, and optimisation for 2G / 3G / 4G / 5G networks
 - 💡 **Hands-on build:** a working **Li-Fi** link — keypad → laser → LDR → LCD, data carried on light
+- 📶 **Simulated:** a **3-bit DPCM** link in Simulink — predictive quantization, integrating receiver, Butterworth reconstruction
 - 🧪 **Simulation:** MATLAB / Simulink models of transceivers, filters, and link budgets
 - 🛰️ **Drive test & optimisation:** TEMS Investigation — RF measurements, drive tests, and radio network optimisation
 - 🔬 **Digital & circuit design:** Logisim (logic), ModelSim (HDL), Proteus (circuits / microcontrollers)
@@ -126,10 +127,24 @@ Theory  →  Simulation  →  Implementation  →  Visual explanation
       <img src="https://img.shields.io/badge/Free%20Space%20Optics-F87171?style=flat-square&logoColor=white" alt="Free space optics" />
     </td>
     <td width="50%" valign="top">
+      <h3>📶 <a href="https://github.com/ahhhatem500-cmd/digital-communication-dpcm">Digital Communication System</a></h3>
+      <p>A <b>3-bit DPCM</b> link in MATLAB/Simulink: a predictive transmitter quantizes the sample-to-sample error, the receiver integrates it back and an 8th-order Butterworth filter rebuilds the 10 Hz message. Includes the Simulink Coder output and AVR firmware from the original hardware attempt.</p>
+      <img src="https://img.shields.io/badge/MATLAB-0076A8?style=flat-square&logo=mathworks&logoColor=white" alt="MATLAB" />
+      <img src="https://img.shields.io/badge/Simulink-1D4ED8?style=flat-square&logoColor=white" alt="Simulink" />
+      <img src="https://img.shields.io/badge/DPCM-15803D?style=flat-square&logoColor=white" alt="DPCM" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
       <h3>🎬 <a href="https://github.com/ahhhatem500-cmd/manim">manim</a></h3>
       <p>Scene code and experiments behind <b>Visualized Math</b> — animated explanations of engineering &amp; mathematical ideas.</p>
       <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
       <img src="https://img.shields.io/badge/Manim-1C1C1C?style=flat-square&logoColor=white" alt="Manim" />
+    </td>
+    <td width="50%" valign="top">
+      <h3>🧪 In progress</h3>
+      <p>DSP experiments, GNU Radio / SDR captures, and more Simulink communication links are being prepared.</p>
+      <img src="https://img.shields.io/badge/status-building-0ea5e9?style=flat-square" alt="Building" />
     </td>
   </tr>
 </table>
